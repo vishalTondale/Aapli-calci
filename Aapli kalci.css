@@ -1,0 +1,45 @@
+body{
+    background-color: white;
+    text-align: center
+    }
+h1{
+    text-align: center;
+    font-size: 30;
+    color: red;
+}
+p{
+    text-align: left;
+    font-size: 20;
+    color: rgb(21, 232, 193);
+        
+}
+p:hover{
+    color: rgb(9, 210, 9);
+    transition: .49;
+}
+.container{
+    background-color: rgb(17, 169, 207);
+	background-size: 100px 80px; 
+	background-size: cover;
+	position:absolute;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%)
+}   
+.textview{
+    display: inline-block;
+	margin: 3px;
+    width: 198px;
+	height: 29px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(234, 237, 242, 0.589);
+    /* background:none */
+	border-radius: 10px; 
+	border: none;
+}
+.textview:hover{
+    color: brown;
+    transition: .45;
+}
+    
